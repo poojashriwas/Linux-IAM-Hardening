@@ -1,7 +1,7 @@
 # Linux-IAM-Hardening
 "Mini project on Linux IAM and System Hardening"
 
-# 🛡️ Linux IAM & System Hardening — Secure User, Group & Permissions
+#  Linux IAM & System Hardening — Secure User, Group & Permissions
 
 A hands-on cybersecurity project focused on **Identity & Access Management (IAM)**, **Linux Hardening**, and **least-privileged access controls** on Ubuntu.
 
@@ -9,7 +9,7 @@ This project demonstrates secure configuration of **users, groups, permissions, 
 
 ---
 
-## 🚀 Project Objectives
+##  Project Objectives
 
 * Build a secure IAM model on Ubuntu (Users & Groups)
 * Enforce **least-privilege sudo access**
@@ -20,7 +20,7 @@ This project demonstrates secure configuration of **users, groups, permissions, 
 
 ---
 
-## 🧰 Tools & Environment
+##  Tools & Environment
 
 | Component           | Description                                         |
 | ------------------- | --------------------------------------------------- |
@@ -32,7 +32,7 @@ This project demonstrates secure configuration of **users, groups, permissions, 
 
 ---
 
-## 👥 IAM Design — Roles & Access Policy
+##  IAM Design — Roles & Access Policy
 
 | Role              | Group          | Access                                                    |
 | ----------------- | -------------- | --------------------------------------------------------- |
@@ -47,7 +47,7 @@ This project demonstrates secure configuration of **users, groups, permissions, 
 
 ---
 
-## 🔐 Sudo Policy (Least Privilege)
+##  Sudo Policy (Least Privilege)
 
 Allowed commands via `/etc/sudoers`:
 
@@ -57,7 +57,7 @@ Allowed commands via `/etc/sudoers`:
 
 ---
 
-## 🗂️ File & Directory Security
+##  File & Directory Security
 
 | Path           | Permission | Reason                       |
 | -------------- | ---------- | ---------------------------- |
@@ -68,7 +68,7 @@ Allowed commands via `/etc/sudoers`:
 
 ---
 
-## 🧐 Auditing (auditd Enabled)
+##  Auditing (auditd Enabled)
 
 Monitoring rules added:
 
@@ -86,7 +86,7 @@ aureport -f
 
 ---
 
-## 🛠️ Remediation of Misconfigurations
+##  Remediation of Misconfigurations
 
 | Misconfiguration           | Risk                 | Fix                                |
 | -------------------------- | -------------------- | ---------------------------------- |
@@ -96,7 +96,7 @@ aureport -f
 
 ---
 
-## 🧪 Testing & Verification (Kali VM Attack Simulation)
+##  Testing & Verification (Kali VM Attack Simulation)
 
 ✔️ SSH access tested
 ✔️ Unauthorized sudo attempts denied
@@ -117,7 +117,7 @@ aureport -f
 
 ---
 
-## 📦 Commands Used (Quick View)
+##  Commands Used (Quick View)
 
 Create Groups & Users
 
@@ -145,7 +145,7 @@ sudo systemctl enable --now auditd
 
 ---
 
-## 📸 Demonstration Screens
+##  Demonstration Screens
 
 > ✅ IAM Setup
 > ✅ Sudo enforcement
@@ -158,7 +158,7 @@ sudo systemctl enable --now auditd
 
 ---
 
-## 🧾 Learning Outcomes
+##  Learning Outcomes
 
 * Secure Linux IAM architecture
 * Real-world misconfiguration analysis
@@ -168,7 +168,7 @@ sudo systemctl enable --now auditd
 
 ---
 
-## ⭐ Project Highlights
+##  Project Highlights
 
 * Enterprise-style access model
 * Real-world Linux hardening tasks
